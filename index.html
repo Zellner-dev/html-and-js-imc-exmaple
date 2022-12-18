@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="central-box">
+        <h1 id="title">IMC</h1>
+        <div class="input-box">
+            <label>SEU PESO(kg):*</label>   
+            <input class="input-and-buttons" id="weight-input" type="number" placeholder="72.3">
+        </div>
+        <div class="input-box">
+            <label>SUA ALTURA(m):*</label>
+            <input class="box input-and-buttons"id="height-input" type="number" placeholder="1.72">
+        </div>
+        <button onclick="getBmi()" class="input-and-buttons">
+            CALCULAR
+        </button>
+        <div id="result-title">
+            <hr>
+                <h2>RESULTADO</h2>
+            <hr>
+        </div>
+        <div class="input-and-buttons" id="result-box">
+            <p id="result-text">Insira os dados.</p>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
